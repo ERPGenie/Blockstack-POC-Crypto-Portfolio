@@ -1,8 +1,10 @@
 <template>
   <div class="panel-landing text-center" id="section-1">
     <h1 class="landing-heading">My Crypto Portfolio</h1>
-    <h2 class="landing-heading">A simple Blockstack DApp to track your crypto portfolio</h1>
-    Your data is securely and privately stored in your Gaia hub from Blockstack.
+    <h2 class="landing-heading">A simple Blockstack DApp to track your crypto portfolio</h2>
+    <p class="landing-text">
+        Your data is securely and privately stored in your Gaia hub from Blockstack.
+    </p>
     <p class="lead">
       <a
         href="#"
@@ -12,6 +14,11 @@
       >
         Sign In with your Blockstack ID
       </a>
+    </p>
+    <hr>
+    <h2 class="landing-heading">Developer</h2>
+    <p class="landing-text">
+      This Blockstack DApp was developed by <a href="https://explorer.blockstack.org/name/elephantninja.id">elephantninja.id</a>, <a href="https://www.linkedin.com/in/erpgenie/">Kevin Wilson</a> (ERPGenie) and <a href="https://www.freelancer.com/u/IvaKami">Ivan P.</a>
     </p>
   </div>
 </template>
