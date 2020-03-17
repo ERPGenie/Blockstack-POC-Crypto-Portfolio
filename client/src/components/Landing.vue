@@ -1,6 +1,8 @@
 <template>
   <div class="panel-landing text-center" id="section-1">
-    <h1 class="landing-heading">Hello, Blockstack!</h1>
+    <h1 class="landing-heading">My Crypto Portfolio</h1>
+    <h2 class="landing-heading">A simple Blockstack DApp to track your crypto portfolio</h1>
+    Your data is securely and privately stored in your Gaia hub from Blockstack.
     <p class="lead">
       <a
         href="#"
@@ -8,7 +10,7 @@
         id="signin-button"
         @click.prevent="signIn"
       >
-        Sign In with Blockstack
+        Sign In with your Blockstack ID
       </a>
     </p>
   </div>

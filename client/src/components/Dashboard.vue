@@ -3,6 +3,7 @@
     <b-navbar toggleable="lg" type="dark" variant="dark">
       <b-navbar-brand href="#">
         <img src="@/assets/en_logo.jpg" width="30" />
+        My Crypto Portfolio
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
