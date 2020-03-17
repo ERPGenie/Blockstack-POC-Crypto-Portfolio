@@ -121,10 +121,12 @@
       <b-col></b-col>
     </b-row>
     <!-- </b-container> -->
-    <b-navbar-brand href="#">
-      <img src="@/assets/en_logo.jpg" width="30" />
-      This Blockstack DApp was developed by <a href="https://explorer.blockstack.org/name/elephantninja.id">elephantninja.id</a>, <a href="https://www.linkedin.com/in/erpgenie/">Kevin Wilson</a> (ERPGenie) and <a href="https://www.freelancer.com/u/IvaKami">Ivan P.</a>
-    </b-navbar-brand>
+    <p class="landing-text">
+      <b-navbar-brand href="#">
+        <img src="@/assets/en_logo.jpg" width="30" />
+      </b-navbar-brand>
+        This Blockstack DApp was developed by <b><a href="https://explorer.blockstack.org/name/elephantninja.id">elephantninja.id</a></b>, <b><a href="https://www.linkedin.com/in/erpgenie/">Kevin Wilson</a></b> (ERPGenie) and <b><a href="https://www.freelancer.com/u/IvaKami">Ivan P.</a></b>
+    </p>
   </div>
 </template>
 
