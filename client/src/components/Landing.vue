@@ -5,12 +5,6 @@
     <p class="landing-text">
         Your data is securely and privately stored in your Gaia hub from Blockstack.
     </p>
-    <p class="landing-text">
-      <img src="screen1.png">
-    </p>
-        <p class="landing-text">
-      <img src="screen2.png">
-    </p>
     <p class="lead">
       <a
         href="#"
@@ -21,10 +15,19 @@
         Sign In with your Blockstack ID
       </a>
     </p>
+        <p class="landing-text">
+      <img src="screen1.png" alt="Show All Coins" height=406 width=917>
+    </p>
+        <p class="landing-text">
+      <img src="screen2.png" alt="Show My Portfolio" height=341 width=917>
+    </p>
     <hr>
     <h2 class="landing-heading2">Developer</h2>
     <p class="landing-text">
-      This Blockstack DApp was developed by <a href="https://explorer.blockstack.org/name/elephantninja.id">elephantninja.id</a>, <a href="https://www.linkedin.com/in/erpgenie/">Kevin Wilson</a> (ERPGenie) and <a href="https://www.freelancer.com/u/IvaKami">Ivan P.</a>
+      This Blockstack DApp was developed by <a href="https://explorer.blockstack.org/name/elephantninja.id" target="_blank">elephantninja.id</a>, <a href="https://www.linkedin.com/in/erpgenie/" target="_blank">Kevin Wilson</a> (ERPGenie) and <a href="https://www.freelancer.com/u/IvaKami" target="_blank">Ivan P.</a>
+    </p>
+    <p class="landing-text">
+      <a href="https://www.elephantninja.com/" target="_blank"><img src="en_logo.png" alt="Elephant Ninja"></a>
     </p>
   </div>
 </template>
