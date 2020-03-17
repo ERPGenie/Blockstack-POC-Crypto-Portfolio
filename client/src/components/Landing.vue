@@ -1,6 +1,6 @@
 <template>
   <div class="panel-landing text-center" id="section-1">
-    <h1 class="landing-heading">Hello, Blockstack!</h1>
+    <h1 class="landing-heading">A simple Blockstack app to track your Crypto Portfolio</h1>
     <p class="lead">
       <a
         href="#"

@@ -13,7 +13,7 @@
           <b-nav-item-dropdown right>
             <!-- Using 'button-content' slot -->
             <template v-slot:button-content>
-              <img :src="avatar" width="30" /><em>{{ givenName }}</em>
+              <img :src="avatar" width="30" /> <em>{{ givenName }}</em>
             </template>
             <b-dropdown-item href="#" id="signout-button" @click.prevent="signOut">Sign Out</b-dropdown-item>
           </b-nav-item-dropdown>
