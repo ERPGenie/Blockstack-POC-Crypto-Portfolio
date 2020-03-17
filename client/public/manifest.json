@@ -1,7 +1,7 @@
 {
-  "name": "My Crypto Portfolio",
+  "name": "Hello, Blockstack App",
   "start_url": "./index.html",
-  "description": "A simple Blockstack app to store your Crypto Trading Portfolio safely and securely and PRIVATELY",
+  "description": "A simple Hello, Blockstack app",
   "icons": [{
     "src": "en_logo.jpg",
     "sizes": "400x400",
