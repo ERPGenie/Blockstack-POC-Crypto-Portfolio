@@ -3,7 +3,7 @@
   "start_url": "./index.html",
   "description": "A simple Crypto Portfolio Storage DApp built on Blockstack",
   "icons": [{
-    "src": "en_logo.jpg",
+    "src": "en_logo_square.jpg",
     "sizes": "400x400",
     "type": "image/png"
   }]

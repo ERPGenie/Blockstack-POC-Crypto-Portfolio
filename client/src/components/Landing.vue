@@ -27,7 +27,7 @@
       This Blockstack DApp was developed by <a href="https://explorer.blockstack.org/name/elephantninja.id" target="_blank">elephantninja.id</a>, <a href="https://www.linkedin.com/in/erpgenie/" target="_blank">Kevin Wilson</a> (ERPGenie) and <a href="https://www.freelancer.com/u/IvaKami" target="_blank">Ivan P.</a>
     </p>
     <p class="landing-text">
-      <a href="https://www.elephantninja.com/" target="_blank"><img src="en_logo.png" alt="Elephant Ninja"></a>
+      <a href="https://www.elephantninja.com/" target="_blank"><img src="en_logo.jpg" alt="Elephant Ninja"></a>
     </p>
   </div>
 </template>
