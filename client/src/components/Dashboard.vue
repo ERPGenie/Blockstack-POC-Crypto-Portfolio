@@ -124,12 +124,12 @@
 </template>
 
 <script>
-import Vue from "vue";
-import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
-import { userSession } from "../userSession";
-import axios from "../net/axios";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-vue/dist/bootstrap-vue.css";
+import Vue from 'vue';
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
+import { userSession } from '../userSession';
+import axios from '../net/axios';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 // Install BootstrapVue
 Vue.use(BootstrapVue);
