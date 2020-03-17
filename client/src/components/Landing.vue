@@ -5,6 +5,12 @@
     <p class="landing-text">
         Your data is securely and privately stored in your Gaia hub from Blockstack.
     </p>
+    <p class="landing-text">
+      <img src="screen1.png">
+    </p>
+        <p class="landing-text">
+      <img src="screen2.png">
+    </p>
     <p class="lead">
       <a
         href="#"
