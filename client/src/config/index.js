@@ -4,7 +4,7 @@ export default {
     frontBase: 'http://localhost:8080/'
   },
   prod: {
-    coinMarketCapApiBase: 'https://amazing-northcutt-68d4e0.netlify.com/.netlify/functions/app',
+    coinMarketCapApiBase: 'https://cryptoportfolio.netlify.com/.netlify/functions/app',
     frontBase: ''
   }
 }
