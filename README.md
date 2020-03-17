@@ -6,3 +6,5 @@ Build and deploy a distributed app that has the user authenticate with their Blo
 Technology : Blockstack , Gaia Hub
 
 Skills : Node.js, express, vue.js
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b0e4748e-a661-43e4-ab0f-7e9bfdffe7f1/deploy-status)](https://app.netlify.com/sites/cryptoportfolio/deploys)
