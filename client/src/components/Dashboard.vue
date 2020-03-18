@@ -431,7 +431,7 @@ export default {
 
 .b-table-sticky-header {
      overflow-y: auto;
-     max-height: 600px !important;
+     max-height: 580px !important;
  }
 
 .table-row {
