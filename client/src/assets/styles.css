@@ -52,6 +52,12 @@ body {
     justify-content: left
 }
 
+.right {
+    top: 30%;
+    position: relative;
+    justify-content: right
+}
+
 /* Buttons */
 .btn {
     font-family: 'Source Code Pro', monospace;

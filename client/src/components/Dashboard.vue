@@ -241,7 +241,7 @@ export default {
           label: 'Price(USD)',
           key: 'quote.USD.price',
           sortable: true,
-          class: 'text-center',
+          class: 'text-right',
           thClass: 'tableHeader',
           tdClass: 'tableData',
           formatter: (value, key, item) => {
@@ -252,7 +252,7 @@ export default {
           label: 'Volume(24hr)',
           key: 'quote.USD.volume_24h',
           sortable: true,
-          class: 'text-center',
+          class: 'text-right',
           thClass: 'tableHeader',
           tdClass: 'tableData',
           formatter: (value, key, item) => {
@@ -314,7 +314,7 @@ export default {
           label: 'Name',
           key: 'name',
           sortable: true,
-          class: 'text-center',
+          class: 'text-left',
           thClass: 'tableHeader',
           tdClass: 'tableData',
           formatter: (value, key, item) => {
@@ -325,7 +325,7 @@ export default {
           label: 'Price(USD)',
           key: 'quote.USD.price',
           sortable: true,
-          class: 'text-center',
+          class: 'text-right',
           thClass: 'tableHeader',
           tdClass: 'tableData',
           formatter: (value, key, item) => {
@@ -370,7 +370,7 @@ export default {
           key: 'holdingValue',
           sortable: true,
           align: 'center',
-          class: 'text-center',
+          class: 'text-right',
           thClass: 'tableHeader',
           tdClass: 'tableData'
         }
@@ -419,7 +419,7 @@ export default {
         this.totalPortfolioValue +=
           this.portfolioData[i].quote.USD.price * this.portfolioData[i].amount
       }
-      this.totalPortfolioValue = this.numberWithCommas(this.totalPortfolioValue)
+      this.totalPortfolioValue = $this.numberWithCommas(this.totalPortfolioValue)
     } else {
       this.portfolioData = []
     }
