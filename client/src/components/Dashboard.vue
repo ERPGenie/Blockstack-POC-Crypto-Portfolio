@@ -428,6 +428,12 @@ export default {
 </script>
 
 <style lang="scss">
+
+.b-table-sticky-header {
+     overflow-y: auto;
+     max-height: 700px !important;
+ }
+
 .table-row {
   margin-top: 10px;
 }
@@ -449,7 +455,7 @@ export default {
 .tableRow {
   font-size: 0.75em;
 }
-
+You 
 .holdingAmountInput {
   height: 10px;
   width: 80px;
