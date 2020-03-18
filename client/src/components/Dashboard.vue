@@ -230,7 +230,7 @@ export default {
           label: 'Name',
           key: 'name',
           sortable: true,
-          class: 'text-center',
+          class: 'text-left',
           thClass: 'tableHeader',
           tdClass: 'tableData',
           formatter: (value, key, item) => {
@@ -431,7 +431,7 @@ export default {
 
 .b-table-sticky-header {
      overflow-y: auto;
-     max-height: 100% !important;
+     max-height: 600px !important;
  }
 
 .table-row {

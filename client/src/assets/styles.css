@@ -46,6 +46,12 @@ body {
     justify-content: center
 }
 
+.left {
+    top: 30%;
+    position: relative;
+    justify-content: left
+}
+
 /* Buttons */
 .btn {
     font-family: 'Source Code Pro', monospace;
