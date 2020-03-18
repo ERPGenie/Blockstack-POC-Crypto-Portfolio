@@ -419,7 +419,7 @@ export default {
         this.totalPortfolioValue +=
           this.portfolioData[i].quote.USD.price * this.portfolioData[i].amount
       }
-      this.totalPortfolioValue = $this.numberWithCommas(this.totalPortfolioValue)
+      this.totalPortfolioValue = this.numberWithCommas(this.totalPortfolioValue)
     } else {
       this.portfolioData = []
     }
