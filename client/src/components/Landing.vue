@@ -24,7 +24,7 @@
     <hr>
     <h2 class="landing-heading2">Developer</h2>
     <p class="landing-text">
-      This Blockstack DApp was developed by <a href="https://explorer.blockstack.org/name/elephantninja.id" target="_blank">elephantninja.id</a>, <a href="https://www.linkedin.com/in/erpgenie/" target="_blank">Kevin Wilson</a> (ERPGenie) and <a href="https://www.freelancer.com/u/IvaKami" target="_blank">Ivan P.</a>
+      This Blockstack DApp was developed by <a href="https://explorer.blockstack.org/name/elephantninja.id" target="_blank">elephantninja.id</a>, <a href="https://www.linkedin.com/in/erpgenie/" target="_blank">Kevin Wilson</a> (ERPGenie) and <a href="https://www.freelancer.com/u/IvaKami" target="_blank">Ivan P.</a> <a href="https://github.com/ERPGenie/Blockstack-POC-Crypto-Portfolio"> Fork from GitHub</a>
     </p>
     <p class="landing-text">
       <a href="https://www.elephantninja.com/" target="_blank"><img src="en_logo.jpg" alt="Elephant Ninja"></a>
