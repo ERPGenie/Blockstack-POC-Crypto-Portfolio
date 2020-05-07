@@ -19,13 +19,24 @@ app.use(cookieParser());
 router.post('/coinmarketcap', async function(req, res) {
   console.log('test is going');
   const coinMarketCapApi_Server = axios.create({
-    baseURL: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?cryptocurrency_type=all&start=1&limit=100&sort=market_cap&sort_dir=desc',
-    headers: {
-      'Content-Type': 'application/json',
-      'Accept-Encoding': 'gzip',
+ //   baseURL: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?cryptocurrency_type=all&start=1&limit=100&sort=market_cap&sort_dir=desc',
+  method: 'GET',
+    uri: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
+    qs: {
+      'start': '1',
+      'limit': '100',
+      'convert': 'USD',
+      'sort': 'market_cap',
+      'sort_dir': 'desc'
+    },
+ headers: {
+  //    'Content-Type': 'application/json',
+  //    'Accept-Encoding': 'gzip',
       'Access-Control-Allow-Origin': '*',
       'X-CMC_PRO_API_KEY': '6ae65f3b-d149-4512-a292-204a2320f848'
-    }
+    },
+    json: true,
+    gzip: true
   })
 
   var response = await coinMarketCapApi_Server.get();
