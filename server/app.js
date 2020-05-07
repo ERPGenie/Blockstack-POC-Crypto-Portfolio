@@ -6,11 +6,11 @@ var logger = require('morgan');
 var router = express.Router();
 var axios = require('axios');
 
-var cors = require('cors')
+var cors = require('cors');
 var serverless = require('serverless-http');
 var app = express();
 
-app.use(cors())
+app.use(cors());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
