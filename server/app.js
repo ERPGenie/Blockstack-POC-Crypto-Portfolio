@@ -14,7 +14,7 @@ app.use(cors())
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
+app.use(cookieParser()); 
 
 router.post('/coinmarketcap', async function(req, res) {
   console.log('test is going');
